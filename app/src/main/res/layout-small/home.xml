@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/inputUsername"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/id"
+            android:hint=" id"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:inputType="textPersonName"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:id="@+id/inputPassword">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/password"
+            android:fontFamily="serif-monospace"
+            android:hint=" password"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:inputType="textPassword"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_height="40dp"
+        android:layout_width="100dp"
+        android:id="@+id/login"
+        android:background="#2efd00"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="login"/>
+    <Button
+        android:layout_height="40dp"
+        android:layout_width="100dp"
+        android:id="@+id/register"
+        android:background="#0022fd"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:text="register"/>
+</LinearLayout>

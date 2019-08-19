@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GC</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="year">
+        <item>fresh man</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>GC</item>
+    </string-array>
+    <string-array name="department">
+        <item>applied biology</item>
+        <item>applied chemistry</item>
+        <item>applied geology</item>
+        <item>applied maths</item>
+        <item>applied physics</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>PCE</item>
+        <item>Civil</item>
+        <item>ARC</item>
+        <item>Water</item>
+        <item>Mechanical</item>
+        <item>Chemical</item>
+        <item>Materials</item>
+    </string-array>
+</resources>
